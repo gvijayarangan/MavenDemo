@@ -8,7 +8,7 @@ public class firstcode {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//System.setProperty("webdriver.gecko.driver", "C:\\Users\\gvijayarangan\\Downloads\\setups\\geckodriver.exe");
+		////System.setProperty("webdriver.gecko.driver", "C:\\Users\\gvijayarangan\\Downloads\\setups\\geckodriver.exe");
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\gvijayarangan\\Downloads\\setups\\chromedriver.exe");
 		//Webdriver driver = new ChromeDriver();
 		//WebDriver driver = new FirefoxDriver();
