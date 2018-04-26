@@ -1,81 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="9" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation test" duration-ms="9373" started-at="2018-03-06T17:57:14Z" finished-at="2018-03-06T17:57:23Z">
+  <suite name="Default suite" duration-ms="44" started-at="2018-04-26T13:48:32Z" finished-at="2018-04-26T13:48:32Z">
     <groups>
-      <group name="Priority1">
-        <method signature="Annotations.prior1()[pri:0, instance:testngfiles.Annotations@5f341870]" name="prior1" class="testngfiles.Annotations"/>
-      </group> <!-- Priority1 -->
-      <group name="Priority2">
-        <method signature="Annotations.prior2()[pri:0, instance:testngfiles.Annotations@5f341870]" name="prior2" class="testngfiles.Annotations"/>
-      </group> <!-- Priority2 -->
     </groups>
-    <test name="Smoke Test" duration-ms="9373" started-at="2018-03-06T17:57:14Z" finished-at="2018-03-06T17:57:23Z">
-      <class name="testngfiles.Annotations">
-        <test-method status="PASS" signature="Beforetest()[pri:0, instance:testngfiles.Annotations@5f341870]" name="Beforetest" is-config="true" duration-ms="0" started-at="2018-03-06T12:57:14Z" finished-at="2018-03-06T12:57:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Beforetest -->
-        <test-method status="PASS" signature="Openbrowser()[pri:0, instance:testngfiles.Annotations@5f341870]" name="Openbrowser" duration-ms="2" started-at="2018-03-06T12:57:23Z" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Openbrowser -->
-        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:testngfiles.Annotations@5f341870]" name="Beforemethod" is-config="true" duration-ms="0" started-at="2018-03-06T12:57:23Z" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Beforemethod -->
-        <test-method status="PASS" signature="Aftermethod()[pri:0, instance:testngfiles.Annotations@5f341870]" name="Aftermethod" is-config="true" duration-ms="0" started-at="2018-03-06T12:57:23Z" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Aftermethod -->
-        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:testngfiles.Annotations@5f341870]" name="Beforemethod" is-config="true" duration-ms="1" started-at="2018-03-06T12:57:23Z" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Beforemethod -->
-        <test-method status="PASS" signature="prior2()[pri:0, instance:testngfiles.Annotations@5f341870]" name="prior2" duration-ms="1" started-at="2018-03-06T12:57:23Z" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prior2 -->
-        <test-method status="PASS" signature="Aftermethod()[pri:0, instance:testngfiles.Annotations@5f341870]" name="Aftermethod" is-config="true" duration-ms="1" started-at="2018-03-06T12:57:23Z" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Aftermethod -->
-        <test-method status="PASS" signature="prior1()[pri:0, instance:testngfiles.Annotations@5f341870]" name="prior1" duration-ms="4" started-at="2018-03-06T12:57:23Z" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prior1 -->
-        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:testngfiles.Annotations@5f341870]" name="Beforemethod" is-config="true" duration-ms="0" started-at="2018-03-06T12:57:23Z" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Beforemethod -->
-        <test-method status="PASS" signature="Aftermethod()[pri:0, instance:testngfiles.Annotations@5f341870]" name="Aftermethod" is-config="true" duration-ms="0" started-at="2018-03-06T12:57:23Z" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Aftermethod -->
-        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:testngfiles.Annotations@5f341870]" name="Beforemethod" is-config="true" duration-ms="1" started-at="2018-03-06T12:57:23Z" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Beforemethod -->
-        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:testngfiles.Annotations@5f341870]" name="Closebrowser" duration-ms="1" started-at="2018-03-06T12:57:23Z" depends-on-methods="testngfiles.Annotations.Openbrowser" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Closebrowser -->
-        <test-method status="PASS" signature="Aftermethod()[pri:0, instance:testngfiles.Annotations@5f341870]" name="Aftermethod" is-config="true" duration-ms="1" started-at="2018-03-06T12:57:23Z" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Aftermethod -->
-        <test-method status="PASS" signature="Aftertest()[pri:0, instance:testngfiles.Annotations@5f341870]" name="Aftertest" is-config="true" duration-ms="0" started-at="2018-03-06T12:57:23Z" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Aftertest -->
-      </class> <!-- testngfiles.Annotations -->
+    <test name="Default test" duration-ms="44" started-at="2018-04-26T13:48:32Z" finished-at="2018-04-26T13:48:32Z">
       <class name="testngfiles.Annotation1">
-        <test-method status="PASS" signature="Beforesuite()[pri:0, instance:testngfiles.Annotation1@14bf9759]" name="Beforesuite" is-config="true" duration-ms="17" started-at="2018-03-06T12:57:14Z" finished-at="2018-03-06T12:57:14Z">
+        <test-method status="PASS" signature="Beforesuite()[pri:0, instance:testngfiles.Annotation1@42e26948]" name="Beforesuite" is-config="true" duration-ms="11" started-at="2018-04-26T09:48:32Z" finished-at="2018-04-26T09:48:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforesuite -->
-        <test-method status="PASS" signature="dataprov(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testngfiles.Annotation1@14bf9759]" name="dataprov" duration-ms="16" started-at="2018-03-06T12:57:23Z" data-provider="getData" finished-at="2018-03-06T12:57:23Z">
+        <test-method status="PASS" signature="dataprov(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testngfiles.Annotation1@42e26948]" name="dataprov" duration-ms="6" started-at="2018-04-26T09:48:32Z" data-provider="getData" finished-at="2018-04-26T09:48:32Z">
           <params>
             <param index="0">
               <value>
@@ -96,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataprov -->
-        <test-method status="PASS" signature="dataprov(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testngfiles.Annotation1@14bf9759]" name="dataprov" duration-ms="5" started-at="2018-03-06T12:57:23Z" data-provider="getData" finished-at="2018-03-06T12:57:23Z">
+        <test-method status="PASS" signature="dataprov(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testngfiles.Annotation1@42e26948]" name="dataprov" duration-ms="2" started-at="2018-04-26T09:48:32Z" data-provider="getData" finished-at="2018-04-26T09:48:32Z">
           <params>
             <param index="0">
               <value>
@@ -117,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataprov -->
-        <test-method status="PASS" signature="dataprov(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testngfiles.Annotation1@14bf9759]" name="dataprov" duration-ms="5" started-at="2018-03-06T12:57:23Z" data-provider="getData" finished-at="2018-03-06T12:57:23Z">
+        <test-method status="PASS" signature="dataprov(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testngfiles.Annotation1@42e26948]" name="dataprov" duration-ms="2" started-at="2018-04-26T09:48:32Z" data-provider="getData" finished-at="2018-04-26T09:48:32Z">
           <params>
             <param index="0">
               <value>
@@ -138,17 +74,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataprov -->
-        <test-method status="PASS" signature="Aftersuite()[pri:0, instance:testngfiles.Annotation1@14bf9759]" name="Aftersuite" is-config="true" duration-ms="1" started-at="2018-03-06T12:57:23Z" finished-at="2018-03-06T12:57:23Z">
+        <test-method status="PASS" signature="Aftersuite()[pri:0, instance:testngfiles.Annotation1@42e26948]" name="Aftersuite" is-config="true" duration-ms="0" started-at="2018-04-26T09:48:33Z" finished-at="2018-04-26T09:48:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftersuite -->
       </class> <!-- testngfiles.Annotation1 -->
-      <class name="Suite1.firstcodetng">
-        <test-method status="PASS" signature="fbtest()[pri:0, instance:Suite1.firstcodetng@553f17c]" name="fbtest" duration-ms="9234" started-at="2018-03-06T12:57:14Z" finished-at="2018-03-06T12:57:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fbtest -->
-      </class> <!-- Suite1.firstcodetng -->
-    </test> <!-- Smoke Test -->
-  </suite> <!-- Automation test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
